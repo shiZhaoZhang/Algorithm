@@ -49,7 +49,7 @@ int KMP(string S, string T) {
 }
 
 int main(){
-    string T = "aaad", S = "aaaacaaaad";
+    string T = "z", S = "aaaacaaaad";
     int i = KMP(S, T);
     cout << i << endl;
     return 0;
